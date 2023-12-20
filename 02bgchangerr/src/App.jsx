@@ -2,7 +2,7 @@ import { useState } from "react"
 
 
 function App() {
-  const [color, setColor] = useState("olive")
+  const [color, setColor] = useState("#f1d299")
 
   return (
     <div className="w-full h-screen duration-200"
@@ -46,7 +46,7 @@ function App() {
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
             style={{ backgroundColor: "#333333" }}
           >Black</button>
-          
+
           <button
             onClick={() => setColor("Grey")}
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
@@ -70,7 +70,7 @@ function App() {
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
             style={{ backgroundColor: "#FF9800" }}
           >Yellow</button>
-          
+
           <button
             onClick={() => setColor("rgb(160 160 185)")}
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
@@ -109,6 +109,12 @@ function App() {
 
 
         </div>
+        {/* <footer style={{ marginTop: '20px' }}>
+          <p>Background Changer App - Created by <span className="text-red-800"><a href="https://www.instagram.com/developer_ankitt/" target="_blank" rel="noopener noreferrer">@developer_ankitt</a></span></p>
+        </footer> */}
+        <footer className="text-center py-4 lg:py-8 text-black">
+          <p className="mb-2">Background Changer App - Created by <span className="text-red-800"><a href="https://www.instagram.com/developer_ankitt/" target="_blank" rel="noopener noreferrer">@developer_ankitt</a></span></p>
+        </footer>
       </div>
     </div>
   )
