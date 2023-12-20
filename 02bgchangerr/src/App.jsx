@@ -109,9 +109,6 @@ function App() {
 
 
         </div>
-        {/* <footer style={{ marginTop: '20px' }}>
-          <p>Background Changer App - Created by <span className="text-red-800"><a href="https://www.instagram.com/developer_ankitt/" target="_blank" rel="noopener noreferrer">@developer_ankitt</a></span></p>
-        </footer> */}
         <footer className="text-center py-4 lg:py-8 text-black">
           <p className="mb-2">Background Changer App - Created by <span className="text-red-800"><a href="https://www.instagram.com/developer_ankitt/" target="_blank" rel="noopener noreferrer">@developer_ankitt</a></span></p>
         </footer>
